@@ -1,1 +1,778 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _EpaXExtYbZnt = a; end)); return(function(f,...)local c;local l;local d;local t;local n;local b;local e=24915;local r=0;local o={};while r<571 do r=r+1;while r<0x332 and e%0x4498<0x224c do r=r+1 e=(e*171)%24733 local h=r+e if(e%0x2f74)>=0x17ba then e=(e*0x3a8)%0x23d1 while r<0x1c6 and e%0x11ee<0x8f7 do r=r+1 e=(e-832)%34188 local t=r+e if(e%0x1da2)<0xed1 then e=(e-0x275)%0x31ee local e=56639 if not o[e]then o[e]=0x1 c={};end elseif e%2~=0 then e=(e+0x35c)%0x28af local e=46683 if not o[e]then o[e]=0x1 end else e=(e-0x255)%0x19b1 r=r+1 local e=39899 if not o[e]then o[e]=0x1 d=function(o)local e=0x01 local function r(r)e=e+r return o:sub(e-r,e-0x01)end while true do local o=r(0x01)if(o=="\5")then break end local e=l.byte(r(0x01))local e=r(e)if o=="\2"then e=c.WIIALmYT(e)elseif o=="\3"then e=e~="\0"elseif o=="\6"then n[e]=function(e,r)return f(8,nil,f,r,e)end elseif o=="\4"then e=n[e]elseif o=="\0"then e=n[e][r(l.byte(r(0x01)))];end local r=r(0x08)c[r]=e end end end end end elseif e%2~=0 then e=(e+0x252)%0x843c while r<0x285 and e%0x13a2<0x9d1 do r=r+1 e=(e*507)%38897 local d=r+e if(e%0x26ae)>0x1357 then e=(e-0x263)%0x577 local e=61376 if not o[e]then o[e]=0x1 end elseif e%2~=0 then e=(e*0x294)%0x53c9 local e=43514 if not o[e]then o[e]=0x1 l=string;end else e=(e-0x9d)%0xa997 r=r+1 local e=19987 if not o[e]then o[e]=0x1 n=getfenv and getfenv();end end end else e=(e*0x109)%0xbf2f r=r+1 while r<0x33e and e%0x2d96<0x16cb do r=r+1 e=(e+933)%42844 local d=r+e if(e%0x1048)>0x824 then e=(e-0x174)%0x718e local e=78844 if not o[e]then o[e]=0x1 t="\4\8\116\111\110\117\109\98\101\114\87\73\73\65\76\109\89\84\0\6\115\116\114\105\110\103\4\99\104\97\114\105\80\101\102\66\116\69\72\0\6\115\116\114\105\110\103\3\115\117\98\95\70\108\104\70\67\90\104\0\6\115\116\114\105\110\103\4\98\121\116\101\108\119\70\66\108\70\111\76\0\5\116\97\98\108\101\6\99\111\110\99\97\116\120\101\104\73\106\102\95\82\0\5\116\97\98\108\101\6\105\110\115\101\114\116\76\111\67\85\95\107\118\68\5";end elseif e%2~=0 then e=(e+0x28)%0xb894 local e=45931 if not o[e]then o[e]=0x1 n=(not n)and _ENV or n;end else e=(e+0x118)%0x91ba r=r+1 local e=88366 if not o[e]then o[e]=0x1 b=tonumber;end end end end end e=(e*555)%19121 end d(t);local r={};for e=0x0,0xff do local o=c.iPefBtEH(e);r[e]=o;r[o]=e;end local function h(e)return r[e];end local a=(function(f,l)local t,o=0x01,0x10 local r={{},{},{}}local n=-0x01 local e=0x01 local d=f while true do r[0x03][c._FlhFCZh(l,e,(function()e=t+e return e-0x01 end)())]=(function()n=n+0x01 return n end)()if n==(0x0f)then n=""o=0x000 break end end local n=#l while e<n+0x01 do r[0x02][o]=c._FlhFCZh(l,e,(function()e=t+e return e-0x01 end)())o=o+0x01 if o%0x02==0x00 then o=0x00 c.LoCU_kvD(r[0x01],(h((((r[0x03][r[0x02][0x00]]or 0x00)*0x10)+(r[0x03][r[0x02][0x01]]or 0x00)+d)%0x100)));d=f+d;end end return c.xehIjf_R(r[0x01])end);d(a(13,"V50RG:_Mv8#mFt)ppv"));d(a(90,"pyQaf}9B,SO*rFe6O9}Q9}/r*=fF6,SBFOedSBa}Fe,0yeF,}Se6rRfre*f,e6)0SSaFeeSfayF69Sa)*}B6c}rH66OS*O9Q66OO}9FB,8fB6Q9QafrV}O*,9fBByerQ}6cOOSeF6*S}feea,ea6Fy,S#yFB9*Q,rL6rO9*}f6>,OQe}6QS)aB61,eWOey}966F79e6CO}6,O9*af*)tS6aF6Q,}aeFyB,Q,rB966yra9x6,*6aBefare}FO,6aaeO,*afS*B6QSSef66}SF9fe*fQe,^ySya66<9aa4**BaljFaBfma}f6SFBS9aOegSSaar*,Qf9B,QQafF}B6Q9rO9ByQ*yfQF*Saf*FaS,y96fQWr*e5BayOrO9S*Ur}9fxrOaf*6SOOaSrSSSUF*aBBQr9,yIQ}rf9r_aO*}SF9,9}9eSSSySFO,9r,96,lQ,r}B=yrSSa}FFOFa,rFSFQy,QQOaFF},QQyr}Br69r*f}6fSFQe6ySQFe,,SBayeO,frBreBOQarSBQy,*F99_eSffSFfByF*"));local e=(-9170+(function()local d,n=0,1;(function(e,o,r,n)e(n(e,r,o,e),e(e,r,e,r),r(e,r,o,r and n),o(r and n,e,o and e,r))end)(function(o,e,r,l)if d>308 then return r end d=d+1 n=(n+756)%43923 if(n%206)<=103 then return o else return e(r(o,l and r,o,l),e(e,e,r and l,o),r(e,r,e,r),e(r,o,r,l))end return l(o(e and o,e,e,r),e(e,l and l,e,r),r(r,o,e,o and r),r(e,r,l,e)and l(o,o,e,l and o))end,function(r,l,e,o)if d>135 then return r end d=d+1 n=(n*80)%34494 if(n%632)<=316 then return r else return r(o(o,o,e and r,o),r(e,o,e,o),e(e,e,o,e),l(e and r,l,r,o))end return e(l(r,r,o,l and e)and o(r and l,e,o,r),l(e,o,e,l),r(o,r,l,e),o(l,l,r,l))end,function(l,r,e,o)if d>489 then return o end d=d+1 n=(n*309)%16488 if(n%340)>170 then return o(e(r,e and r,e,l),r(r,l,l,r),e(l,e,r,o and e),r(e,o,r,o))else return e end return o end,function(o,r,e,l)if d>404 then return e end d=d+1 n=(n*752)%7988 if(n%258)>129 then return r else return e(l(e,r,o and r,e),o(o,l,o,e),l(l,r,o and e,e and e),o(o,r,r and e,l and e))end return e(l(r,o,e,r and r)and r(o,e,r,l),r(r,e,o,o),l(e,r,l and e,e),l(o and o,r,o,l))end)return n;end)())local h=c.BLvcmGbh or c.v_IsAA_n;local ne=(getfenv)or(function()return _ENV end);local d=3;local y=1;local t=4;local n=2;local function ee(u,...)local s=a(e,"wEvDZro q^Y%BC{LD^YqLBr)YrL^ZBYALZ B^CL^ZZ^q{BqBLrrYY{T^nZ CCLD-Dr^vCBDkqZvq^q{ED qC^BvZ^oC^DBvE ^BqEB 4_or^%Lz^r o^%LEQoZ%qr^BEvB9%rB%:6ZrqYBZ<CZ{qLCrrYZLqZBLZrC%B&qrrZr^^{BZX^ZE%DC%D{ZDqqBvrYBLBZ{^EYZZ%YHLrDYq{^BDE^oCC{BqB{Dv% C{Zv^ BqBvZqDCLvYDaCqvS ECvE^DorCBD>ZrqYBZrY LqEB^oEDoYoB_EovBE%BZ8%dL^orYr7or%DC^B{ZDqqBDv^^LqDC^^LoLqqD{^ZoqC%oCEv{ qBBv3%CEoov^4E qqC{v^qvCB%CE^oZ%qbB%DE^ BYvEL +%BEE vrr%_LBrlYZZY^^EqoZ%ZJ%r^%q^%%Dv^YDYqZ{B BYL qC{^DZqqCB E{qDBq<{LD%qL{qDrvr BBBvl ZeB C{vvLE^ EBzEZoq+Eoq%qaYZCoE%LjqrB%<r BqE{o^BvEBZLBeP^rC%KYD{Y OLq Ldo^%rLOj^r{LDB^#{ZqoLrZ ^BLBLBoEqr{ZvBq8CZ o{%ZZqCC{DrqDCrDBqrCLDvE^ oB>EZoq7^rL% <BvBYvLrr%YrLD}ro^YBatrZLYoEB)EMoEYLdEoqYCczZD%q/ r{YEL%ZCDCY^{ZDqqBDZ^^LZZEY_LDZYYgY0Zq^ ^BEZq^{ZDr^oC^DY^r%vDD ^C{vZEroL%BE9oZ-{ rCDv^o^BqvDi rqYB!<rZYq B^o{ZL^qqYJLZZq{0r^% L^Z{YBL^fq^LLrroYB{CZ^YvYqvq^L{ D^^qCDD ^Y{rZs^q{%{Bqv{^DB^bCLDvq%qBvEqoBCCB BCDE%oCCZE^oB BEZ DBLEYvTBqExoEBvg^voZL^vBo^rL{J;YZ{{YBZEYE{qDB^Jvq^CLqZ^YY{CZ{Y^BoZ qCLvDqv%Lo{orDLqYLY%{%/oEC ^BZEqoBt qoB^E{Dh%%v  %BZ%rEvrB%_?ZY%EE ZYfEEr{BvNroYBrYELqZq^BLH^EL^rrY{^ Bqv^LLvZ{%BoYoLDq^{vD5qZCq CLrDCq%{ L{v qZB{Z%L%C{ r^CsZE^^oBXEZoqEQ qB^CqovBrvv Bq^,#o^B%ve D Zg%rC%{B%oBoBEDovY^EjrDYB%qorYLP^bq%DL^rqYQYBrZ^BLEZLr{qr{YvBqsCZ Y{EZDqCCBDEq{C vCDB%Cvrq%CLvE  CYvEEEor%qIBo,{rP^o#%/GZrqLYoLBvRCLCovYZLqZB{vo^%E-qrZq / rYYoLCZLqLLrZ YBLrZLYvq^{vDOqZCqqECov8q^{^ZsvrqEBBv) ZJ^qSCZE qZCrvZ ^CY%CE^oZ%qKBYLvvZ%BZEE v%LEEoZrr%{LBrQYZZB%EhBr^%q=%ov%q%qoyYL%ZDZYrFoZCYoLDDvYDL Z^DEq%CqvBqXvD^qLGD^^D{oDLvEqCBqEB #K^o%%B{arYC v{Dm% vBoCBBELoCB{CjrLYoEro %BEBEBqvuEL^ovY7LZZqL?rr%yLCrBYLOorBrBlZrDrqBLZLYoLYZr^ZLDZYZB%vCr v BCjvZB%D%qCC^{qr{{rDqqBC%v{q qqDu qBrvBvBBCEr DBEC? CB vEv<%CEoo^BrEvrCoBEZoDoqLLrr%o<BZCY^Nviq%_LqZCYoLDrDrZLEZLrhL(Z qL{EZqqC{OL7qq{ ZDq{^ZDBqZCrDo C^YBEZ^oq%BEeYrCqoCCrvq  B^EE qBEdLvIBqE_rCBZB%o%oB)ooD%Y%BovY^L{rrYBhJrEYYL hZYBLZZrrZCqZ%Y {^ZYZBB D^^o{EZvqr{BD%^vYvB%{%o E L%EEC%vLvq%CEqoZ%q_B%DE^ BC_E^ v%LELzEoqYqLBrSLqrC%qaroZ% Q{oZoZtBr%oiC^ro%XVvZrYo{LZrDr^ECBD/qZE^^.{ZEo^CL/ZZ^D{oBLovCZYC{B^vL^qCvBBEEqoq%BEJYCE% %B{%rv%rB%fmZYEv=orBEE%EBBDEqoC%vUoEZY^s{rroZ9Zr%YDLrrBYELZ:Z^BL%r YvYqr}^q{^ZY^EY{CrvL BCcvZBqDqqE{CvCq{{DBrE%oBB/EZ%rvr {orBrzBoQ%ZZLB{EEoo qLoorBoEY r^DurooZCYELZZq^BvvZ qZDCLq%voCv Y{vZD^q{{7DZqqvYovqrL%vBq!CZoL{{DEqo^qW{qE{oDYqrCDvr BCE{goZCEvq rqZ{QrCCrEC BBECH ^B%EEoB%^E%oL ^Yrj ZBYILZq{nqorY^)oo6^DL rYYrJRrqqI;EZvD qqCBD4qZCqvB%HEZv^qvC0vZ qEYqL{qDEqv{^BrDroBBHEZBEv%qrqZvroCC^CZ CBLErvZBLEr Z%BBqo^%LEorCoBEdr^% JBrBY^Bo{CZ ^Z{qDB{vZ^YrL%rZ^^L%CLC{B%%^Yo^Z1Y YDBCED5 qBBv}%rvBqfB.vrqYBCv qoB^vB qorBEQBof%ZZ{BqEE  B={LoEBE{vLCr%YZLqZB{ rC%{WEEK^qL^Z{YBL^rBDC^o{ZDqqBvD^rLrZEYv{rC^DEqjCZvqBrZZq^{rDLvDY L%ZLYDL B% {#kE 4vrrY^LCrEYr%ZLZW^oi%csZrqEDoEBEzCLLOvYqDYBB{oLBvLC%LEr4^q{BZ}{Er %GL^rDYoCLZrYvL%Z%Yvqr{DvBq?CZ Z{%DDqr{ZEBqBCrZEqE{vBZE^oCCBEZoq%BovB^v% rBZE^ o%LErvZYr>C DB _^rLBvG^Eq^%L:EZ^%LLovYC)qo/ZD DD B^v rvZY%vY/D qqCBD&qZCqvBC{EZv^qDC9vZ qE{orBEE  F%rE E^ EB6EZoqEX qB^vr EoE%oJqrB%;rvq^YCUqrZYqLBYrEZrL%{eErqYC,LLEo%^q{BZV{qr.YrkD)Z^{LrZB^^YqrD^EL Lq^BLvZD^B{EDD^qCCDVZl{%DE^WCq{ZorC%vLqv%%vE DqZO{DLoE%B-qrB%irYBEEL r%rEZoLYZYrVEZBYlLZ^%&ErBY^L%oU^ZLrZYDCYD{ZDqqBDZ^^LZZEY8LDZYYWYeZq^ ^BEvq^CBE{qL{DDrECqxBZEqoBEv ^B{vr BC6CqrvB^vooCBBEBor%%EE_EooYqLBrdLqrC%q0roZ% V{oZoZ&Br%oT{+Z^YFLZZ^YYqC{:DZqqCBDEqBCqvBq/E q^{qDBqoC^vLq% rBLEB FBZob{)DZqZYLvEqZor%LpBoK%ZroBrE oBBBBBDvrrB%LBrxYZDYYCEDrCY%%BoD%q.CrvYo%ZZ^Y{LrzZYZL%ZD^rLBZE^ZYZDB^%L ZvZqL#Dqq^{YDEZ{ rB{EB kBZo{BCvBq^BCvLEDrY{Foq{L or^B{ 9mrYEYB,JrZE7 OBZEZo%qoBLvDYLaroZYB8CZ{o{L r Y^%LZq^^,DZ^^q%rZL^DLoZE^BLZZ r BvDB^^CCDY^ZYDDYqECBv^ ^CLvrq ^ vq ECqEC LCZ{DoBB%v  vBZE%oE%qC o^%EiCoo YmBo^Y^^CL%ZZ^q{BqZL^r%^LGvZCYqngZ^YDLoCLDSqZCqvBqVCZZq%BCEv% qBBvj%qvCqvCED^qZ{WBEZqoq%BEs%^v% Eq#ECo{ Bv^ DBCBBovBCEqrCBDE rC%GBTDr%oE!r^ EC%rZYrLrrBrBLLrorqlrZLY^YqDCYv{^LqqCLZLZ o{rD qB{B{Brv rCqEB (BZrC{vvrqo{ECBo_C1E^qrBrvovqYEpDrZr^9ry7rZYqoZBZEqoq%LCYvD  l{rE%%BorDY^9qrW%ELvr^Y%LErv^ L ZYYZ{^ZoYMY{D ^ {^LLqqC^ZDq^CqLrqLCDDoqECBDZq ^ }v BC^EC YCZ{D r%CvD q%CE{vL^r3Bo7%LEvo% %{^ov%BVEovYYL^ZLYr{EZ^YYLEZ%^CL{.{YnLCDCDEqBCqvBqUv q^{vDr  {qD%^Z rC^EB 0BZo CBvrqvqqEEqHB%vYoCBZE^Z{B{EE E%CYCuqrZYqLBBD/^oBBb>^ovYL<LLErY^q{BZM{qZCYqLrrZY L{rZrZLBZ%rVB Z ^{LvDCqB{%ZvZZY^BCvD ZBqEBC{v^qLoLrYYC}ErrY^ CCqZBoEBJsqrB%1rAY {LZEYNL%DLYv{CZqY_LDLroE^BL+ZZCCDL^j%Zv{Y%Iv8ZqZ{CrvYo:ELB {{CDL^ZLZLZr^^BLoZZYYBCrq ZBqEB%^vYDq{rvLq^qqvq LCDvDvBBEvqvqYLvZorBZE orBoBqoY%LEqo/%r6{r%oquZrE%ZRqrEY{, JqYrLo!Z%EL%rrrZ{CrZ^r{ LqYS{qDC^%YYCDEvLZt%rrCvvvoB%/BrvZoBBxEZ%YvE oBCvZ qqR6Z  CDEr or^%BRerZYqr3%rE0rC%BQLoo%B%BoZ%D%qD^YELCroDL^7{ZDqqB{g ZnvEBDEqCCqvBqUE ^ {{ZvqCCBD%^vYoB^vo pBZEqCvDvqDCrA% oBYv% ECZ%rvCrB%/QZ^BEr D%r4Yoq%rE EqBudqr^oq{srrYrbBrZqqLrroYmLBZ^YYYBvBYD{%DC^BL D%^{{^ZZ^B CL^vZ qBBoC{DD%^g^Ivo ^CLv^  qqDp qBCvo DCDCZo^B{ErvZBZE%oD%rEBoE%ZBZrB%%E ovoqETrqY^;YrEo{^r{LDB^d{Z %L%Z{Yq{CZYYZqr{CvBqQCZoYLED^^sCBErq{{qvCq{Covr %CEED ^B%Dy ^CDvo5C C%ZUqrBLo 6BCEEo{BqL%rLBviCoqB_{qo^YYB%oD%ZLCZLY^LYrE^L%CZ%^^L^ZrDr^ECBD>qZE%^Z{EZoq^CLZZq^{YBCv^ ZBqEB% v^qoCEDv rCBv%qvo y{EYqCooYrY%LZBZr^%qOVrZYqZ+%^E r^Y{)Br^oqCLrL%nLB{CZq^Z{qDB{DZ^YB{vZEY=LCZEDEq%CqvBqKErq%{{Z^^h{EvLvEqZBqEB *Eo CCvv^qPCZCBr B^vo ECvEr BB%vvVrovYBUIrZEZo%%EPqo%BfEvrC%o=DLEZ{^q{BZcCYrCYqLBvoYYLrZ ^BLBCCDYqZCqvBBEZ^^B{%DCqr{BDrqD{ B^vB .BZEqBEv{quCEv^ ^CqEC KqkXDq3CrE o^BoYLV0rZYqLBr+YZ7aqBYDCD^ v^q %voYv%;9^ ^m<vC%E%BEq^rvLZq^{^DOqZCq ELDD q^{BDrrEB%DYqE{qv%qZ EBqEqoBB*r^CoDE Cor%CXBoS%ZZ^YYJZZCY%YCvHrZYqLB^ 0Co{%EBWoC% EEov% LCrqYo%ZZ^rB{DrvY ,Dvv^rLZZqr<YBZL^%LvDL^%YrCEDE qBBvFCDQCqBCEEBrC{ZDZoCBYEo {Cq%^EZoA%Z<q%(vv DBZEqo^BvFLLCr{YZLqZB{ZrC%%LCrv%+LCXB^DMqZ^%jL^Z D^^E{XDZqqDE Z{CZrr{qDvarL>rEEqZLrvB{* rCSEB 5BZrB{EDv rCBvr LCv%^EBo(%ZAq%EE{ _BEE^o^BqiCoh ?L oq%{7^ov%B^CLqZZ^q{B^ZLrZY^DL^ZqYBLZ{ED^qqCBD?BCvB EBCv v^qvC:vZ qALoo{ov^q^CrBrv}oBBVEZ%%DE v%qvEqjBBE^/^o<%?GZrqLLo^B{fCLLv2Y^%vY%%r% %HCYLErB^q{BZ2CqrEYLLEZoYZLE5,q LBDC^B{LDC^{YRvY^E{EZ ZZ%BE^o   JY Brr^ZDY{ sECZo%%BEnoZ%qyBoh{rZqrC%oyZrqYBrv%^E{orBo.^L%v^BZLYB^DE^D%rrq{CZC^Z{qDBC ZCY{LE&0q LoZ%Y BoD^^q{BCrZ{ BCUvZBrZrZ&BovCqLC^vq CCYvD ^qqvrqDqZEL ECZvq EBYE vZYraC DB ?^rLBv!^rBoBCYEB ABYLEZ%^q{BZ*CLZC%rCDrD^BLE{EDBqqCBDaB^ZoY>LvDr^oCLDrvrBBBBv. ZDt^?{ZDZq%Yo{LZDCYECq ^vEL rCZEB C%{vr  %CE{oDBDEo 6%rEvoB YbDoD%rB%rZYr#LrrYZBEr%^LsvZCYq<!rDoDB{ZqYr{^ZoYGYLZEq^{LZZq^{YL%oECqvBq%C{D Z %LvEqYBC_^ ECvE^ DBrvoDoBqvrorr^%v22rZYqZL%B?CrB%EEvLrrv^BLNZZ{%oEYvC r YYkZZ^YoS.{EZ qqCBDfBCDL^Y{LZoqCC>Dqq^{rDE DC^DB^WC^Dv LCLBEEBoq%BE(YqEC qB^vYoCB{v^Nr ^YB8VrZLBoE%B+^oq%%Evoq%%%BrE%oLC0BYBJDZ%^C;ZZ^^BYBZZYDLLZYr_LqZX^ELvD^ro LoEEELZe%rrovE%CB ECCEqoBBloEC v% {% ECoL%L8  BB{E^ v%LELZq%C8Bo(%rEvD^B!EZooZ^%CLTZZ^qZrYL>^IqY^LErCrq_ErD^^YqrD^^LqZsZB{CZD^Y{ELm^ZCCD%^a{<vCDB{ZDDq ^YBEvDoq%BE,YrvoqWB^CZr{BEE{ qqrLBorB EBoLrEBvLqZBY3Z %CADr Y^T%o8oMK rB%ELoZYrqLrZorZmEZ%rWL%D^^YLZLZ^Z{%DB^D{ZBCvY ZBqEBBvv^qqBCv^qo%LvrqvB^%%DBDLYoZ LvZ^vo^qYCe rZYqLBYoW^oY%LF^oD%o^CnLZZ^q{BqZLCr%^CLvrA^CLL#!YqL<ZEr}BYZY^E{rZ{qC^BEB^DC%vCqB{ v%q{C^DZqBoCB^EZoq%BrZB^vZ rCoE^ YCr{Y.roCYBN/rZLBoE%B>^oq%%EvoqoqEFrLoZCLrEY{L^rY^C}ZrDYYqL%Crqq{rCBrE EL{BqELDvq BCTo%{EZvqr^ZZEq%{rDoq%CEvB YqqDe qB^CqZLBEvEoCB{EEvZYB2CovB/5C 8rE%zLqZBYaD %YyErE%qLCZDY^MvZBY%g {rZ,qB{>DZB{Zq^EL ZUoL{EZEv^q_C.vZ qEqqLC DDEC qBZEqoBEZ ^CZvEqJCDvYq(oE%LXqrB%:rs%CEv Z^ E oYBZEoo %qYDBEEZoq%BE9oZvDq5^rLqDB^j{Zq%LErZ C{LZY^LLoDC r{{DqqCLZDr^  ^C vG ZBq oCLDE YCrvrq qq7EoD%Z%^Erob%ZOq%cEr l%CEBoLBoEBoLrEY^LqZBYyZE%COqoZYC^^L Zn^Z{qqL+ZZrYZL ZrYoYqvEqDCZC^Drq;CZvqBED{^q{YvCq{C vCZ{ EB{EqoBB:oXCEDv ^CvELr{BLvD rrC%o+ZrqYBZB%rzBos%rEoL%EDq^&D8qY{v vYC {CZ%^Z{qDBCEZq^BCmrvYDLqZM^LL%ZovCYvCZvq BEE^^{BD%qCCrDBqrCDD DqBCDv ^qqvq LB E^qaBrEqvqB.EL %BoBB Z%B)Co{%rCvLqZBYD% DCBZZBCD{YvBnt^rErDB^;{ZqCLLZrrZLBZZ^^L LqY7{LLZqC{LDDqr{qDEZ:{qDjqE^AD qoBCDZ  CKCB LBYCqoCqz4YoCBYvZvZYqEE DBqCoLCr^YZLqZB{DoD%Y+{r^Yqu r{ E^r{{DB^,{Z ^LMZZqq{^D{DDr vrq{^)vBrr{ ^.vr BBBv. ZEOqECBDZE^^+BOEZoqEEqDB^CqqtBqEC % BvZ D qE{orBYEE v%rCIEq^%!{ogBE%BrE%q%qDYY^L%r)%Q%dEoooqCLvDZqqCB BLDD^^uBEZ^^B{%DB^DC^DioD{DDoqvC^v%E^^vBNEZoqz# ^C E^o{BBE^vqYXErorBBEZoq%rEooh%B:^oYoBBqov% EzEc%oLCZLYL8ErrYEL{Zq^CLuh^Dr^vCBD&qZE^qECZvD r%CvZoC%%ELvDCEEZ%vDuoovEBvL{ErqS%BE#oZEv %BCEo EBEvDvZ qCvv}Y EDoE%BJ^oB%%c{o oq{EZD^Z^%{BZS^Z{qDB^,CZ  qC{ DZqqCB v{^DB^{{LZD^r LDo%^r%v%%rBqEBCB E{DEqoBBtooBCv^ LCqEC LqTEr YBECy HB bLoEBqACo# nMqo BDg{EZ%BIZrr%oLCEYZDYoo%LBrYqrZCCrv.Dr^QCBDaqZvY^%LrZvqB{rD{q% ^CvvX ZBqor%{MYDq%%LvErqE%BE_oZLB rCDEroYBqEr   qvOoq%^BqZLBZVroB%r?DEZ%EQ^rEY%LC{CZ%^Z{qDBCCZCYoLrZC^CKvZE %{^rEvLC rv{{E%^r{^{BqYLE oBqEB )LCEqoBBsEroq%BER orL!Bo,%Z%YrB%}=ZoYDBclrZYq^Er4YZLq vvLLZZq^BLoZZ^^{B^%^Z{B{ ^N{ZDq^v{lDrqqCBLBqZCqvBqECZvq B{v%Z qBBv2L{BqEB iCoCooBBEEZ% %BEuoZCqE^od%rkqrC%So rq%{5%rZY%LB%qYZLqZBY.L^Zq^CLVZ ^q{BZ=^ZLDDB^X{ZDqqB{vDZqq{ DsqZCqvCqsCovqq{{rvZ ^BBYY ZBqEBqvqvEqo{B_oDoq%BE,qZBEiBov%Z3YrBED3ZoY%BM}rqYqY rUYZLqZB%vLZZY^BLZZZ^q{BZGYB{qDC^V{ZDqq{{=DZYDCBDEqZC^vBqvCZDYq{C8vo qrovX ZBqv{N1BZE%oBHLEZoq%BDdvD%q4LoW% jq%L%pEoLBYBdrrZEoLBrQYZLqr{YUL ZqYELOZZ^q{BZY^Z{YDB^h{ZDYqB{3rAqqC{DUqrCqv{q*LZDZ BCDvZ qBBC{ ZBqvY ;B^EqoBBVE%oqB{vYoZ%{eBo{%ZnqrBC8v{rq%D>FrZYq%ZraYZuqZBYoLZZ{^BL ZZYqzoZ/^^{qZD^_{YDq%B{qDZqCCBBLqZvBvB%mCYvqqECOBz qvvviqoC{EB oBZ%HoBB<EZqqBrE3oY%qEvozDEzqo{BY&ZrLYBuorZYqLBov%{LqrZY4oLZq^BL7ZZ%r{BZo^ZLIDB^v{ZZq^U{MD^qq BDUqYCqrB^%CZvC BrqvZB%BBr+q%BqvE AEBEq CBkvoqv%BEooZZY;Bo_%Zvqo^%NeYrq%v,lLCYqEBo^YZL{ZBYoLZKY^B7,Co^qLEZ: q{qZv^-{ZYvqB{DDZqCCBDvqZCqDYq7Cqvq BCRv^ q{Bv^ ZBCEB DBZ{%oBBTv%oqBDE}oZ%q>{oe{ZsLrB% NZrLYBvvrZCq7%rGY%LqqrYerrZq^BIvZZ^C{BZ ^Z{YDBYp oDq^R{5roqq{EDdYZ{HvBqrCZv% BYDvZ q{bv> %BqEB =BoEq^BBoEZoL%BE oZCvnB^M%^PqoD%?DCrqMC_irZ ELBrrYZLLZBYvLZrqv{LlZq^qZqZa^^{qrB^q{ZDCqB{DDZr%CBDxq{CqDDq.CZvq {CbrZq^BBv  ZBLEBqrBZZqq BcE%oqLrE#Br%q6Bv^%ZHCrB% GZrYYBES{oYqHPrtLCLqrEY5EZrO^BLrZZ^%{BED^Z{qZZ^S{%DqqB{=DoqqiBZqqZCLvBq CZqB BRVD{ qCDv*YCBq C >BZ{EoBBrEZoL%BEvoZBq^{o,%qMq^B%29^rqBBmqrZYCLBrDYZB%ZBYc<%ZqYDL+ZZ^q{{ZyBZL DB^ {ZDLqBErDZ%q{rD5q%Cqorq<Zrvq B^^vZ CBBv  ZBYEBq7roEq sB?Z^oqBEEAqZE{!Bor%Z9qrBCLfZrq%ZxRrYYqLBrMY^Lqr{Y%LZZL^Bq{ZZ^q{Bo,^L{qZD^({%DqLL{xZoYrCBDqqZL%vBqVCZDYqoCavC qqDvt ZBqv{ CBZvvoB^{EZoq%BvvLB%qE o#}ZTqrB%zEoooYBOBrZZ^LBrzYZmYoqYbkEZqY%LzZZ^qL{r^^ZLoDBoY{ZDqqBLvZkqq{%DWoMCqvBqX{oZ_ B{QvZ^ BBvU ZCYvD GCrEqDqB4EZoqB{vEoZBY!BZr%Z(qrBBvEorq%L;6YZYqLBr5YZtZZBY LZr%^BLvZZYq{CZg^Y{qc ^p{%Dq^{{EDZqLCBB{qZCqvBY0{LvqqDC}v% qDLvAqoBBEB qBZB^oBBQEZ YBCE6oC%qr^op%Z1qo{B^*ZovYB^^rZYqLBrNYqLqrDYML{Zq^{LbrZYv{BZo^ZoBDB^ {ZZYqL{!D%qq YD#qZCqZBq^CZvL BC vZ{%BBDvqqBqvZ s^ZEqoBBcvo ^%BE^oZ %xBo*%ZEYrC%_V{rqLD)-rZYqLBo%YZLLZBYYLZZY^BUfZ ^qLvZ+ E{qZD^GLoZ{qB{ DZvoCBDGqZLqDEqzC%vqqDC#^  qC{vB ZC(EBEDBZEqoBCvvroqBrEbCq%qiBokBovvrB%Y,ZEZYBpcrZYqzErMY%LqroY/LoZqYBzvZZ^{{BRY^Z{LDBYv{ Dq^D{SCvqqCBD:YZ{+vBq CZvL BZDvZqY{Zv/ BBq E iBZEq {DDEZ E%BZLoZ%qdB vC=Rqoo%H^DrqYBMirZYLLBr YZdvZBYvLZrqYLLGZY^q^oZJ^%{qDB^q{ZDLqB{aDZq{CBZvUBCqDZqJ vvq BC}ZZqYBBvq ZC=EB{DBZvY %BTECoqLZE-oZ%qE{or%ZEvrBL{8ZrqYBEvrqYq4 rhv^LqZBYULZrY^BLqZZYD{BZv^ZLqZ^^t{%DqL%{&DBqq{{%qqZ{NvBE{CZvq BL<Dv qCZv2 BBqqL XCov oBB^EZ5{%BERoZBYvvoi%{yqYY%}!Zrq%{EErZ%DLB rYZLqZBYUL^ZqYZLKZL^q{{ZgYZ{%DB^ {ZroqB{qDZ^YoZD+qBCqBYq*CZvq^BC vZqdBBvq ZD%EBqvBrEq rB6vqoq%BEi oCD}BoY%ZrorB%SxZoYYC-}rLYqD&r)YZLqZB% LZr.^BL%ZZ^Y{Br*YE{qZD^GIoDq^Z{#ZoERCBDqqZ ovBqgCZZq {C2vB qCZvO{ Bqv{qoBZvEoBreEZoq%Bvv q%qEooPPv2qrB%8EooBYB=%rZqqLBrbYZLqoZYbLBZqY LWZo^qLBZY^Z{LDBov{ZZ+qBLv%Bqq{ZD5vvCqvBqdLZDP BCqvZq?BB^D ZCYv^ ;BCEqZ/B,EZoqB{v%oZBv4BY{%ZGqrBBvEqrq% IcBBYqLBr)YZ3vZBYqLZrD^BLvZZYqLkZ_^%{q8r^G{BDq^{oqDZ^HCBB{qZCqvBYA{ vqqZC;vB qDLvjqoBCEB ^BZ LoBBiEZ YC^EIo{%qrYo!%ZGqo{BrsZoDYBECrZYqLBr+YBLqrZY4LLZq^{L5rZY{{BZ ^ZoZDB^q{ZD{C^{3DBqqCBDlqrCqvCq:CZ Y BCbvZ {BBv8 Z{qvv MBCEqoBBTrqoq%BEBoZBDbBoe%ZGBrB{?<{rq% bNr%YqEvrICZLCZBY%LZBq^BE ZZBqe^Zd^L{q{^^T^^Dq%B{YDZ^DCBBYqZZvvBqfCqvqqrCyvL qBCv0qorqEB ^BZo oBBlEZqqrLE(oC%qEro!BBRqo{%ZTZovYBZLrZYqLB -%^LqroY(L{ZqC L/oZ^%{BZY^ZLvDB{v{Zrq^Y{8DLqq{oDX2 CqZBqBCZDZ BCYvZL%BBZ# BBqv^ :BCEq%vBPDZ^E%BE{oZBEgBYB%Zvq^L%bEDrq%n>O oYqEBooYZa ZBYLLZ^_^BLQrv^qLCZ;^Z{qD{^>EZZrqBLEDZqLCBq qZ3qZDq_{rvqLBCI0D qBBD{ ZC EBqEBZE^oB{GvDoqB%Ehoq%qv{o=CZWLrB%L*Zo YBBCrZ%YLLr5%rLq)%YnLZZq^Bl^ZZYY{BZ<^Z{BDBBSL{Dq^{{_D%qqvrDNqZLEvB^DCZvB BCGvZqY{Ev2qqBqZZ .BZEq {BZEZ C%BZ{oZ%qMB vBo2q v%n9BrqYBp?ooBvLBo YZvEZBY#LZZq% LJr ^q+DZ=^r{qZBvv{ZZYqBZoDZ^%CBohBLCqD{q&^%vqZ%C)rZqqBBDv ZDDEBZBBZEqq=BnvDoqB{ESoo%qvB Y%ZEqrB%LsZCLYBEvo Yq/{ryBCLqZBY=LZrr^B)KZZYY{BZE^Z1qZ%^#LZDq^%{?oEqq{v CqZ{YvBqDCZv^ BCEvZ qE{v- ZBqv^ yBZEqoBv%EZ q%BvvoZ%^TBqgBDNqoB%X7qrqB{n2 ZY{LBopYZ0qZB{qLZZq^LLmro^q{BZc^o{qoB^r{ZZYqB{ DZqBCBo&^^CqD{q*rZvq{ECxvZ^EBBDj ZCYEB EBZDqYLBMvZoqB3E/qo%qvB %%ZEqrBB2GZqLYBcUo{Yq;{rUYZLqZLY}vZrC^BnvZZ^L{BZB^ZEqr ^uLoDqLr{9BLqq{v CqZ{%vBqYCZv^ BCvvZ qE{v9 ZBqv  0BZEqoBEvEZoq%BEIoZ%qcB zDqPqo{%boorq%Lg4rZ%qLBotYZyYZBYELZoq% LarZ^qL&ZF%o{qrB^Z{ZZqqBLbDZ%LCBDiqBCqD{q.CZvq LC0rZqDBBDv ZBLEBrvBZZq rBfvooqvrEQLE%qEvYC%ZE%rB%oKZr^YB-vrZYqZ{r:YZLqr Y7LZZq^BZvZZ^q{BZN^Z{qDBYjoqDq^{{/^oqq{LD;qZ{gvB^uCZDY BCEvZ^qC+vVqZBqvl #{oEqqBB%EZ q%Bv5oZ;#;BonCEsqo{%,,ZrqY{S*qZYYLBovYZLLZBDCLZ qYZLFro^qoBZVB{{qDB%){ZZqqBLvDZq^CBr&B CqDBq6Cqvq^{C/ZZq{BBDP ZCqEBY BZEqq B*vooq%BE8o %qDB o%ZEYrB% ?ZLLYBDKrLYqh{r2nCLq{MY6LY^r^B+DZZ^C{BZE^Z{%DB^nDoDqqB{0ZvqqCBD*qZvYvBqbCZDv BCTvZ qE{v8 ZBqEB *BZEq BZZEZ Y%B voZB%OBob%CgqoB%,EorqYCH, ZBrLBoTYZLBZBBvLZoq%DLHrZ^qLBZpCB{qDB^^{ZZYqB{6DZqYCBoR^LCqD{q0C%vqLECmrZqrBBDv ZZqEBqBBZEqqBB0vZoqB{E}or%qvBYD%ZEqrB%ZTZ YYBvSrLYq*BrP%ZLqqDYTLZor^BsvZZ^q{BZD^ZEqr(^,LoDq^D{T%YqqgBZBqZ{YvB{^CZ{E BCo E qCLvdqZBqEC JBoEqoBEvEZoq%BE%oZ%qOBo,+oRqrB%8KZrqYB<loZvBLBovYZrYZB%DLZZqY^LVrZ^qL{ZU^r{qrBYZ{ZZqqB{ZDZYYCBrHqYCqDBqg{Zvq%DCtvZqZBBDv ZBqEB DBZZq ^BkvooqBDE:DB%qDBoB%ZEYrBE^4ZCoYB.oYEYq<LrNYBLqZCYXLoZq^BZvZZ^q{BZY^Z{qDB^!DoDqqB{ODZqqCBDU^ZrBvB^vCZqY B{DvZ qCBvlqZBqv{ IBrEqqBB%EZ q%BEZoZCY<BqSCO?qoB%QEZrqLZ/XrZ%jLBovYZLqZBYvLZ qYBLcro^qLDZ.Y%{qoB^Z{ZZYqBoFDZQ CBDF%ZCqDBqz{ovq CCQZZq%BBDT ZBBEB^vBZDq oB+vZoqBBEp Z%qE{ %%ZEYrBD%;ZrqYB2H EYqcLrlYZLqZ{YzvZrB^B?DZZ^L{BB%^ZEqrD^1L DqL {KGDqqCBZ qZ{qvB^DCZvY BLXD% qCCv)qZBqZ^ 0BooooBCDEZqr%BEWoZ%qBvoIBr,qoL%y>rrqBBECrZ%^LBrrYZqDZBBbUqZqYCLprr^q DZM^ZL DBYD{ZDqqB{>DZqqLvD1^rCqDLq+Crvq^BC{vZq^BBvZ Z{YEB^fBLEq CBavroq{qEG oCZsB D%Z%ZrB%JlZrqBt:foqYqLBrUY%Lq BYZLZrB^BL ZZY%{B u%^{qr>^OZCDqLq{coZYCCBZZqZZDvBBDCZrqYECyDq q;qvmEqBqZB^rBZvBoBBrEZqD%BZlq^%qv4oG^rKqDq%<tYYrYBErrZBqLBrEYZL^ZBY>ZoZq^BLAZL^q{BZyYZZBDBYZ{Z^YqBLrDZqqCCDI^rCqZ6qjCovq^B{YvZqYBBDE ZZLEBqv{;EqqgB8Yvoq%BEKoZ%BFB v%ZEBrB%E<Z q%r19ooYqV:rzU_LqoBYoLZrY^BMvZZBL{BZ.%r{qrd^2{ZDqqL{SoZYCCBZZqZCLvBE CZrqYECODq qDrvpr Bqvv%CBZvCoBCBEZo^%BEvoZ%qr{oU%Z/qoo%W_ZrqYBrvrZYqLBrnYZLqZB%i qZq%zLuYo^qVEZV^ZLLDBYv{ZZBqB{EDZYq{{Db^oCqDMq4D_vq^B{rvZqYBBDv ZLLEB dC%EqqpB5EZoq%LEz^ZBY>B Z%ZWLrBECtZqq%D-!oqYqorrkY{Lqrv{CLZrC^BLBZZ^^{BZE^Z{qq{^N{ZDqqB{7DZqq{B%ZqZ{BvB{vCZDC BC_vC qC{vlqqBqEC i{ZDDoBCvEZoB%BoBoZCqE%oHBoFqo{%OD%rqYBEErZ%BLBr;YZL%ZBC-LYZq%+LiZ%^q{{Z=BZLEDBYZ{ZYEqBroDZq{v^Dj^^CqD{q9Crvq {CnvZBYBBvK ZCEEB )BZEq%{BQEZoq%BE0oZ%qEB{Z%ZEBrBEvJZoCYBXmrLYq8{rx%qLqZCY?EZZY^BkvZZ^B{B^B^ZXqZq^_LoDq^{{4o%qqCBDYqZ{BvBq4CZv% BS2DZ q{ivt %Bq{Z dLZvvoBCZEZCE%BZToZ%{r^o9B^;qqv%63rrqYC-_rZLYLBruYZLqZBY.LZrqv7Lxrq^qZ{Z)Y^{qDBYp{ZZYqBLZDZq^CBrUqLCqD{q}CqvqCqCsZZq{BBDv ZCYEBY BZEq DBbvqoq%BE!o %qDBor%ZEBrB% XZECYBD2o^YqEXrH_CLqv YWLY^r^BarZZYL{BZE^Z{^DB^.DoDqqB{(DZqqCBD>^ZrBvB^ZCZqY B{rvZ qCvv(qoBqD8 yBrEqqBBCEZ Y%BEZoZEEFBq7B{(qo{%>EorqLZm=rZ%ZLBoZYZLqZBYvLZ q%vLzrq^qLDZ.rY{qoBYE{ZZBqBo_DZDqCBD.YZCqD{ql{qvq CCyZZ%%BBDv ZBBEBB^BZDqoLBhv
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "RMxploit" .. Fluent.Version,
+    SubTitle = "Residence Massacre OP Script",
+    TabWidth = 120,
+    Size = UDim2.fromOffset(520, 420),
+    Acrylic = true,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Main", Icon = "" }),
+    VisualsT = Window:AddTab({ Title = "Visuals", Icon = "" }),
+    N1 = Window:AddTab({ Title = "Night 1", Icon = "" }),
+    N2 = Window:AddTab({ Title = "Night 2", Icon = "" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+local Options = Fluent.Options
+
+local locations = {
+    ["Ladder"] = CFrame.new(-0.173666388, 9.29997444, -81.3216171, 0.71976018, 4.61229028e-08, -0.694222808, 2.05241513e-08, 1, 8.7717325e-08, 0.694222808, -7.73837669e-08, 0.71976018),
+    ["Generator"] = CFrame.new(-79.722, 4.675, -131.918),
+    ["Bedroom"] = CFrame.new(-32.645, 23.8, -72.845),
+    ["LivingRoom"] = CFrame.new(-34.962, 8.05, -47.153),
+    ["Entrance"] = CFrame.new(-11.036, 7.73, -31.822),
+    --["OutsideMap"] = CFrame.new(28, 5, -292)
+}
+
+local locations2 = {
+    ["SafeSpot"] = CFrame.new(-339.321, 82.4, -40.622),
+    ["DeliveryBoard"] = CFrame.new(-282.224, 82.4, 14.674),
+    ["Main"] = CFrame.new(-304.235, 82.4, -6.777),
+    ["Corridor1"] = CFrame.new(-303.846, 82.4, 50.169),
+    ["Entrance2"] = CFrame.new(-217.417, 82.4, 65.412),
+    ["Corridor2"] = CFrame.new(-293.11, 82.4, -89.501)
+}
+
+local function Teleport(location)
+    Character:SetPrimaryPartCFrame(locations[location])
+end
+
+do
+    Fluent:Notify({
+        Title = "Notification",
+        Content = "Residence Massacre",
+        SubContent = "Suggest stuff if yo want lolol",
+        Duration = 8
+    })
+
+local RS = game.ReplicatedStorage
+local LocalPlayer = game.Players.LocalPlayer
+local Character = LocalPlayer.Character
+local character = LocalPlayer.Character
+local Remotes = RS.Remotes
+local items = RS.Items
+
+--//MAIN\\--
+
+   Tabs.Main:AddParagraph({
+        Title = "REMOTES",
+        Content = "Remotes are located down there."
+    })
+
+    local FlashcamDropdown = Tabs.Main:AddDropdown("FlashCam", {
+        Title = "FlashCam:",
+        Values = {"1", "2", "3", "None"},
+        Multi = false,
+        Default = 1,
+    })
+
+    FlashcamDropdown:SetValue("None")
+
+    FlashcamDropdown:OnChanged(function(Value)
+        Remotes.FlashCam:FireServer(Value)
+    end)
+
+   Tabs.Main:AddParagraph({
+        Title = "BASIC",
+        Content = "Basic stuff are located down there."
+    })
+
+    Tabs.Main:AddButton({
+        Title = "INF Sprint",
+        Description = "Unlimited Sprint",
+        Callback = function()
+            Character.Sprint.Stam:SetAttribute("Max", 999999)
+            Character.Sprint.Stam.Value = 999999      
+            Fluent:Notify({
+                Title = "STAMINA",
+                Content = "You've been given infinite stamina.",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.Main:AddButton({
+        Title = "INF O2",
+        Description = "Unlimited Oxygen",
+        Callback = function()
+            Character.Breath:SetAttribute("Max", 999999)
+            Character.Breath.Value = 999999
+            game.Lighting.Blur.Enabled = false
+            workspace.Sounds.HeavyBreath.Looped = false      
+            workspace.Sounds.HeavyBreath.Playing = false      
+            Fluent:Notify({
+                Title = "BREATH",
+                Content = "You've been given infinite O2.",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.Main:AddParagraph({
+        Title = "ITEMS",
+        Content = "Items stuff are located down there."
+    })
+
+    Tabs.Main:AddButton({
+        Title = "Give SnowBall",
+        Description = "Give yourself a SnowBall (works)",
+        Callback = function()
+            local t = items.SnowBall:Clone()
+            t.Parent = LocalPlayer.Backpack
+            Fluent:Notify({
+                Title = "ITEMS",
+                Content = "You've been given a SnowBall.",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.Main:AddParagraph({
+        Title = "LOCALSCRIPTS",
+        Content = "Disable certain LocalScripts buttons are located down there."
+    })
+
+
+    Tabs.Main:AddButton({
+        Title = "Disable Cold",
+        Description = "Disables the Freeze Localscript",
+        Callback = function()
+            Character.Temperature.Enabled = false
+            Fluent:Notify({
+                Title = "CHRISTMAS",
+                Content = "Freeze localscript has been disabled.",
+                Duration = 5
+             })
+        end
+    })
+    
+    Tabs.Main:AddButton({
+        Title = "Disable Deathhandler (not recommended)",
+        Description = "Disables the DeathHandler Localscript",
+        Callback = function()
+            LocalPlayer.PlayerScripts.DeathHandler.Enabled = false
+            Fluent:Notify({
+                Title = "LOCALSCRIPT",
+                Content = "Deathhandler localscript has been disabled.",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.Main:AddParagraph({
+        Title = "MOST BASIC",
+        Content = "Most basic things are located down there."
+    })
+
+
+    local Toggle = Tabs.Main:AddToggle("FullBright", {Title = "FullBright", Default = false })
+
+    Toggle:OnChanged(function()
+        game.Lighting.Atmosphere.Density = 0.550
+        game.Lighting.EnvironmentDiffuseScale = 1
+        game.Lighting.Brightness = 3
+            --game.Lighting.Ambient.Color = Color3.new(1, 1, 1)
+            --wait(0.5)
+        --end
+    end)
+
+    Options.FullBright:SetValue(false)
+    
+    local Slider = Tabs.Main:AddSlider("Slider", {
+        Title = "SprintSpeed",
+        Description = "Use if you bypassed Anti-Cheat or you are at Night 2",
+        Default = 16,
+        Min = 17,
+        Max = 45,
+        Rounding = 1,
+        Callback = function(Value)
+            Character:SetAttribute("SprintSpeed", Value)
+        end
+    })
+
+    Slider:SetValue(3)
+
+--//VISUALS\\--
+
+    Tabs.VisualsT:AddButton({
+        Title = "Disable Static",
+        Description = "Disables the Static image",
+        Callback = function()
+            LocalPlayer.PlayerGui.DialogueUI.Static.Visible = false
+            Fluent:Notify({
+                Title = "VISUAL",
+                Content = "Static has been disabled.",
+                Duration = 5
+             })
+        end
+    })
+
+Tabs.VisualsT:AddButton({
+    Title = "Every Player ESP",
+    Description = "ESP For any Players",
+    Callback = function()
+        local players = game:GetService("Players")
+        local localPlayer = players.LocalPlayer 
+
+        local function addESP(player)
+            if player == localPlayer then return end
+
+            player.CharacterAdded:Connect(function(character)
+                local highlight = Instance.new("Highlight")
+                highlight.Parent = game:GetService("CoreGui")
+                highlight.Adornee = character
+                highlight.OutlineColor = Color3.fromRGB(0, 0, 255)
+                highlight.FillColor = Color3.fromRGB(173, 216, 230)
+                highlight.FillTransparency = 0.85
+            end)
+
+            if player.Character then
+                local highlight = Instance.new("Highlight")
+                highlight.Parent = game:GetService("CoreGui")
+                highlight.Adornee = player.Character
+                highlight.OutlineColor = Color3.fromRGB(0, 0, 255)
+                highlight.FillColor = Color3.fromRGB(0, 0, 255)
+                highlight.FillTransparency = 0.9
+            end
+        end
+
+        for _, player in pairs(players:GetPlayers()) do
+            addESP(player)
+        end
+
+        players.PlayerAdded:Connect(addESP)
+
+        Fluent:Notify({
+            Title = "VISUAL ESP [PLAYERS]",
+            Content = "Success.",
+            Duration = 5
+        })
+    end
+})
+
+
+
+    Tabs.VisualsT:AddButton({
+        Title = "Larry ESP",
+        Description = "ESP For Larry Night 1 & 2",
+        Callback = function()
+            RS.MutantVal:Destroy()
+            task.wait(1)
+            local H = Instance.new("Highlight")
+            H.Parent = workspace:WaitForChild("Mutant")
+            H.FillTransparency = 1
+            Fluent:Notify({
+                Title = "VISUAL ESP [LARRY]",
+                Content = "Success.",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.VisualsT:AddButton({
+        Title = "Stalker ESP",
+        Description = "ESP For Stalker [Night 2]",
+        Callback = function()
+            --RS.MutantVal:Destroy()
+            --task.wait(1)
+            local H = Instance.new("Highlight")
+            H.Parent = workspace:WaitForChild("Stalker")
+            H.FillTransparency = 1
+            Fluent:Notify({
+                Title = "VISUAL ESP [STALKER]",
+                Content = "Success.",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.VisualsT:AddButton({
+        Title = "Zombies ESP",
+        Description = "Zombies  & Skeletons ESP",
+        Callback = function()
+            local zombies = {"FrozenBloodZombie", "Zombie", "BloodZombie", "FrozenZombie"}
+
+    game.Workspace.ChildAdded:Connect(function(child)
+         if child:IsA("Model") and table.find(zombies, child.Name) and not child:FindFirstChildOfClass("Highlight") then
+            local h = Instance.new("Highlight", child)
+             h.FillTransparency = 1
+    end
+end)
+
+for _, child in ipairs(game.Workspace:GetChildren()) do
+    if child:IsA("Model") and table.find(zombies, child.Name) then
+        local h = Instance.new("Highlight", child)
+        h.FillTransparency = 1
+    end
+end
+            Fluent:Notify({
+                Title = "VISUAL ESP [ZOMBIES & SKELETONS]",
+                Content = "Success.",
+                Duration = 5
+             })
+        end
+    })
+
+--//NIGHT 1\\--
+
+    Tabs.N1:AddParagraph({
+        Title = "Teleports",
+        Content = "Teleports are located down there."
+    })
+
+    Tabs.N1:AddButton({
+        Title = "Teleport to Ladder",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Ladder")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.N1:AddButton({
+        Title = "Teleport to Generator",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Generator")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.N1:AddButton({
+        Title = "Teleport to Entrance",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Entrance")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.N1:AddButton({
+        Title = "Teleport to LivingRoom",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("LivingRoom")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.N1:AddButton({
+        Title = "Teleport to BedRoom",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Bedroom")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N1:AddParagraph({
+        Title = "AUTOMATICS",
+        Content = "Automatics are located down there."
+    })
+
+   Tabs.N1:AddButton({
+        Title = "Refill Fireplace",
+        Description = "You may use with more people.",
+        Callback = function()
+            local OCframe = character.HumanoidRootPart.CFrame
+            workspace.WoodPile.Detector.CanCollide = false
+        character.HumanoidRootPart.CFrame = CFrame.new(-27.1490536, 8.69999981, -118.611603, 0.999933779, 1.25921233e-07, -0.0115088131, -1.26111075e-07, 1, -1.57700288e-08, 0.0115088131, 1.72203727e-08, 0.999933779)
+        task.wait(0.25)
+            fireclickdetector(workspace.WoodPile.Detector.ClickDetector)
+            task.wait(0.25)
+            character.HumanoidRootPart.CFrame = CFrame.new(-45.1136208, 7.84974337, -60.2411423, 0.0467772186, -0.000410021428, 0.998905241, 1.91703771e-06, 0.99999994, 0.000410380948, -0.998905301, -1.72815417e-05, 0.0467772186)
+            task.wait(0.5)
+            character.HumanoidRootPart.CFrame = OCframe
+            Fluent:Notify({
+                Title = "CHRISTMAS",
+                Content = "Refilled Fire-place!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N1:AddButton({
+        Title = "Grab Wood",
+        Description = "You may use with more people too.",
+        Callback = function()
+         local OCframe = character.HumanoidRootPart.CFrame
+            
+            workspace.WoodPile.Detector.CanCollide = false
+        character.HumanoidRootPart.CFrame = CFrame.new(-27.1490536, 8.69999981, -118.611603, 0.999933779, 1.25921233e-07, -0.0115088131, -1.26111075e-07, 1, -1.57700288e-08, 0.0115088131, 1.72203727e-08, 0.999933779)
+        task.wait(0.25)
+        fireclickdetector(workspace.WoodPile.Detector.ClickDetector)
+        task.wait(0.25)
+        character.HumanoidRootPart.CFrame = OCframe
+            Fluent:Notify({
+                Title = "CHRISTMAS",
+                Content = "Grabbing Wood...",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.N1:AddButton({
+        Title = "Grab Barricade Pile (Quite useless)",
+        Description = "Quick.",
+        Callback = function()
+         local OCframe = character.HumanoidRootPart.CFrame
+            
+        character.HumanoidRootPart.CFrame = CFrame.new(-43.144, 25.3, -68.021)
+        task.wait(0.25)
+        fireclickdetector(workspace.BarricadePile.Detector.ClickDetector)
+            task.wait(0.25)
+            character.HumanoidRootPart.CFrame = OCframe
+            Fluent:Notify({
+                Title = "BARRICADES",
+                Content = "Grabbed Barricade!",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.N1:AddButton({
+        Title = "Refill Generator",
+        Description = "Quick.",
+        Callback = function()
+         local OCframe = character.HumanoidRootPart.CFrame
+            
+        character.HumanoidRootPart.CFrame = CFrame.new(-76.039, 4.675, -133.78)
+        task.wait(0.25)
+        fireclickdetector(workspace.Shack.JerryCan.ClickDetector)
+            task.wait(0.5)
+            fireclickdetector(workspace.Shack.Generator.ClickDetector)
+            task.wait(0.5)
+            character.HumanoidRootPart.CFrame = OCframe
+            Fluent:Notify({
+                Title = "GENERATOR",
+                Content = "Refilled",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N1:AddButton({
+        Title = "Grab JerryCan",
+        Description = "Quick.",
+        Callback = function()
+         local OCframe = character.HumanoidRootPart.CFrame
+            
+        character.HumanoidRootPart.CFrame = CFrame.new(-76.039, 4.675, -133.78)
+        task.wait(0.25)
+        fireclickdetector(workspace.Shack.JerryCan.ClickDetector)
+            task.wait(0.25)
+            character.HumanoidRootPart.CFrame = OCframe
+            Fluent:Notify({
+                Title = "JERRY CAN",
+                Content = "Grabbed!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N1:AddParagraph({
+        Title = "EXTRA",
+        Content = "Extra stuff are located down there."
+    })
+
+   Tabs.N1:AddButton({
+        Title = "Place Trap",
+        Description = "Trolling",
+        Callback = function()
+         local C = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+
+         game:GetService("ReplicatedStorage").Remotes.PlayerMutant:FireServer(table.unpack({
+             [1] = "Trap",
+             [2] = C,
+          }))
+            Fluent:Notify({
+                Title = "TROLLING",
+                Content = "Placed trap!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N1:AddButton({
+        Title = "Open UpgradeFrame",
+        Description = "Upgrades",
+        Callback = function()
+            LocalPlayer.PlayerGui.DialogueUI.UpgradeFrame.Visible = true
+            LocalPlayer.PlayerGui.DialogueUI.UpgradeFrame.Position = UDim2.new(0.499, 0, 0.5, 0)
+            Fluent:Notify({
+                Title = "UPGRADES",
+                Content = "UpgradeFrame's visible!",
+                Duration = 5
+             })
+        end
+    })
+
+--//NIGHT 2\\--
+
+    Tabs.N2:AddButton({
+        Title = "Give Tablet",
+        Description = "Give yourself the Camera Tablet",
+        Callback = function()
+            local t = items.Tablet:Clone()
+            t.Parent = Character
+            Fluent:Notify({
+                Title = "ITEMS",
+                Content = "You've been given the Tablet.",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N2:AddParagraph({
+        Title = "Teleports",
+        Content = "Teleports are located down there."
+    })
+
+   Tabs.N2:AddButton({
+        Title = "Teleport to Entrance",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Entrance2")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+  Tabs.N2:AddButton({
+        Title = "Teleport to DeliveryBoard",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("DeliveryBoard")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N2:AddButton({
+        Title = "Teleport to Main",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Main")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N2:AddButton({
+        Title = "Teleport to Corridor 1",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Corridor1")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N2:AddButton({
+        Title = "Teleport to Corridor 2",
+        Description = "Teleport",
+        Callback = function()
+            Teleport("Corridor2")
+            Fluent:Notify({
+                Title = "TP",
+                Content = "Teleported!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N2:AddParagraph({
+        Title = "Automatics",
+        Content = "Automatics are located down there."
+    })
+
+
+    Tabs.N2:AddButton({
+        Title = "Refill Power",
+        Description = "A automatic that's for refilling the Power Generator.",
+        Callback = function()
+        local OCframe = character.HumanoidRootPart.CFrame
+            
+        character.HumanoidRootPart.CFrame = CFrame.new(-318.606567, 82.3999634, 97.8991776, -0.0253890008, -5.39555138e-08, -0.999677658, 3.64161301e-09, 1, -5.40653993e-08, 0.999677658, -5.01310549e-09, -0.0253890008)
+        task.wait(0.25)
+            fireclickdetector(workspace.PowerCell.ClickDetector)
+            task.wait(0.25)
+            character.HumanoidRootPart.CFrame = CFrame.new(-271.368439, 82.3999634, 112.977608, -0.9987728, -3.20747908e-08, 0.0495270789, -2.73038125e-08, 1, 9.70072804e-08, -0.0495270789, 9.55359525e-08, -0.9987728)
+            task.wait(0.25)
+            fireclickdetector(workspace.Generator.Detector.ClickDetector)
+            task.wait(0.25)
+            character.HumanoidRootPart.CFrame = OCframe
+            Fluent:Notify({
+                Title = "NIGHT 2",
+                Content = "Refilled power!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N2:AddParagraph({
+        Title = "ANTIS",
+        Content = "Some Buttons that make you inmune to certain things is located down there."
+    })
+
+     Tabs.N2:AddButton({
+        Title = "Disable Stalker View DMG",
+        Description = "If you look at Stalker nothing happens if you exec this.",
+        Callback = function()
+            Character.LookAt:Destroy()
+            Fluent:Notify({
+                Title = "STALKER",
+                Content = "You're inmune to Stalker view damage now.",
+                Duration = 5
+             })
+        end
+    })
+
+     Tabs.N2:AddButton({
+        Title = "Anti Vent-Pests",
+        Description = "The Vent-Pests can't snatch you with this.",
+        Callback = function()
+        local grids = workspace.Grids
+		for _, gridel in grids:GetChildren() do
+            if gridel:IsA("Model") then
+                for _, child in gridel:GetChildren() do
+                    if child:IsA("Part") and child.Name == "Hitbox" then
+                        child:Destroy()
+                    end
+                end
+            end
+            Fluent:Notify({
+                Title = "PESTS",
+                Content = "You're inmune to Vent Pest's snatch now.",
+                Duration = 5
+             })
+        end
+        end
+     })
+
+   Tabs.N2:AddParagraph({
+        Title = "REMOTES",
+        Content = "Remotes are located down there."
+    })
+
+     Tabs.N2:AddButton({
+        Title = "Revive",
+        Description = "Use this to revive, Only at Night 2.",
+        Callback = function()
+            Remotes.LoadCharacter:FireServer()
+            wait(1)
+            Fluent:Notify({
+                Title = "NIGHT 2",
+                Content = "Revived!",
+                Duration = 5
+             })
+        end
+    })
+
+     Tabs.N2:AddButton({
+        Title = "Escape-Snatch",
+        Description = "Use this to escape the snatch of a Vent Pest.",
+        Callback = function()
+            Remotes.EscapeSnatch:FireServer()
+            Fluent:Notify({
+                Title = "NIGHT 2",
+                Content = "Escaped the Snatch!",
+                Duration = 5
+             })
+        end
+    })
+
+     local Dropdown = Tabs.N2:AddDropdown("Delivery", {
+        Title = "Delivery:",
+        Values = {"Camera", "Lock", "UVLamp", "MotionSensor", "None"},
+        Multi = false,
+        Default = 1,
+    })
+
+    Dropdown:SetValue("None")
+
+    Dropdown:OnChanged(function(Value)
+        Remotes.Delivery:FireServer(Value)
+    end)
+
+    local RepairDropdown = Tabs.N2:AddDropdown("RepairWire", {
+        Title = "Repair Wire:",
+        Values = {"1", "2", "3", "4", "None"},
+        Multi = false,
+        Default = 1,
+    })
+
+    RepairDropdown:SetValue("None")
+
+    RepairDropdown:OnChanged(function(Value)
+        Remotes.Repair:FireServer(Value)
+            Fluent:Notify({
+                Title = "NIGHT 2",
+                Content = "Repairing: " ..Value.. " (If RepairWorker isn't ded)",
+                Duration = 5
+            })
+    end)
+
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+
+SaveManager:IgnoreThemeSettings()
+
+SaveManager:SetIgnoreIndexes({})
+
+InterfaceManager:SetFolder("FluentScriptHub")
+SaveManager:SetFolder("FluentScriptHub/specific-game")
+
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
+
+
+Window:SelectTab(1)
+
+Fluent:Notify({
+    Title = "Help",
+    Content = "My Residence is getting Massacred :((.",
+    Duration = 8
+})
+
+SaveManager:LoadAutoloadConfig()
+end
