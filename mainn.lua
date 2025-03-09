@@ -2,6 +2,10 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
+local LocalPlayer = game.Players.LocalPlayer
+local Character = LocalPlayer.Character
+local character = LocalPlayer.Character
+
 local Window = Fluent:CreateWindow({
     Title = "RMxploit" .. Fluent.Version,
     SubTitle = "Residence Massacre OP Script",
@@ -49,9 +53,6 @@ do
     })
 
 local RS = game.ReplicatedStorage
-local LocalPlayer = game.Players.LocalPlayer
-local Character = LocalPlayer.Character
-local character = LocalPlayer.Character
 local Remotes = RS.Remotes
 local items = RS.Items
 
