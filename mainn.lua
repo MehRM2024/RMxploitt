@@ -28,10 +28,6 @@ local locations = {
     ["Bedroom"] = CFrame.new(-32.645, 23.8, -72.845),
     ["LivingRoom"] = CFrame.new(-34.962, 8.05, -47.153),
     ["Entrance"] = CFrame.new(-11.036, 7.73, -31.822),
-    --["OutsideMap"] = CFrame.new(28, 5, -292)
-}
-
-local locations2 = {
     ["SafeSpot"] = CFrame.new(-339.321, 82.4, -40.622),
     ["DeliveryBoard"] = CFrame.new(-282.224, 82.4, 14.674),
     ["Main"] = CFrame.new(-304.235, 82.4, -6.777),
