@@ -6,9 +6,24 @@ local LocalPlayer = game.Players.LocalPlayer
 local Character = LocalPlayer.Character
 local character = LocalPlayer.Character
 
+local allowedPlaceIds = {
+    [14896802601] = true,
+    [16667550979] = true
+}
+
+if not allowedPlaceIds[game.PlaceId] then
+    Fluent:Notify({
+        Title = "PLACE",
+        Content = "Place not supported!",
+        Duration = 5
+    })
+    
+    return
+end
+
 local Window = Fluent:CreateWindow({
-    Title = "RMxploit",
-    SubTitle = "Most updated RM script",
+    Title = "RMxploit" .. Fluent.Version,
+    SubTitle = "Residence Massacre OP Script",
     TabWidth = 120,
     Size = UDim2.fromOffset(520, 420),
     Acrylic = true,
