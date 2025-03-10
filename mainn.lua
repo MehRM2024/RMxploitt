@@ -7,8 +7,8 @@ local Character = LocalPlayer.Character
 local character = LocalPlayer.Character
 
 local Window = Fluent:CreateWindow({
-    Title = "RMxploit" .. Fluent.Version,
-    SubTitle = "Residence Massacre OP Script",
+    Title = "RMxploit",
+    SubTitle = "Most updated RM script",
     TabWidth = 120,
     Size = UDim2.fromOffset(520, 420),
     Acrylic = true,
