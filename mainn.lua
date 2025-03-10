@@ -6,12 +6,12 @@ local LocalPlayer = game.Players.LocalPlayer
 local Character = LocalPlayer.Character
 local character = LocalPlayer.Character
 
-local allowedPlaceIds = {
+local aPlaceI = {
     [14896802601] = true,
     [16667550979] = true
 }
 
-if not allowedPlaceIds[game.PlaceId] then
+if not aPlaceI[game.PlaceId] then
     Fluent:Notify({
         Title = "PLACE",
         Content = "Place not supported!",
@@ -96,6 +96,29 @@ local items = RS.Items
         Content = "Basic stuff are located down there."
     })
 
+    Tabs.Main:AddButton({
+        Title = "Larry spawn listener",
+        Description = "tells you if Larry spawned outside or inside",
+        Callback = function()
+            workspace.ChildAdded:Connect(function(whoi)
+	            if whoi.Name == "Mutant" and whoi.Config.Wandering.Value == true then
+                    Fluent:Notify({
+                        Title = "LARRY",
+                        Content = "Larry has spawned outside!",
+                        Duration = 5
+                    })
+	            elseif whoi.Name == "Mutant" and whoi.Config.Wandering.Value == false then
+		            Fluent:Notify({
+                        Title = "LARRY",
+                        Content = "Larry has spawned in a Window!",
+                        Duration = 5
+                    })		
+                end
+            end)
+        end
+        })
+        
+	
     Tabs.Main:AddButton({
         Title = "INF Sprint",
         Description = "Unlimited Sprint",
