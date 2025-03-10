@@ -97,7 +97,7 @@ local items = RS.Items
     })
 
     Tabs.Main:AddButton({
-        Title = "Larry spawn listener",
+        Title = "Events Notifier (Unfinished)",
         Description = "tells you if Larry spawned outside or inside",
         Callback = function()
             workspace.ChildAdded:Connect(function(whoi)
@@ -115,8 +115,17 @@ local items = RS.Items
                     })		
                 end
             end)
+            workspace.ChildRemoved:Connect(function(whowi)
+                if whowi.Name == "Mutant" then
+                    Fluent:Notify({
+                        Title = "LARRY",
+                        Content = "Larry has dispawned!",
+                        Duration = 5
+                    })
+                end
+            end)
         end
-        })
+    })
         
 	
     Tabs.Main:AddButton({
