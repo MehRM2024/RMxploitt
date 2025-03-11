@@ -227,7 +227,7 @@ local items = RS.Items
         --end
     end)
 
-    Options.FullBright:SetValue(false)
+    --Options.FullBright:SetValue(false)
     
     local Slider = Tabs.Main:AddSlider("Slider", {
         Title = "SprintSpeed",
