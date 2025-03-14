@@ -224,8 +224,8 @@ local items = RS.Items
             game.Lighting.EnvironmentDiffuseScale = 1
             game.Lighting.Brightness = 5
         -- game.Lighting.Ambient.Color = Color3.new(1, 1, 1)
-            wait()
-        end
+	    break
+	end
     end)
 
     --Options.FullBright:SetValue(false)
