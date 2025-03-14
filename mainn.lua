@@ -218,13 +218,14 @@ local items = RS.Items
 
     local Toggle = Tabs.Main:AddToggle("FullBright", {Title = "FullBright", Default = false })
 
-    Toggle:OnChanged(function()
-        game.Lighting.Atmosphere.Density = 0.550
-        game.Lighting.EnvironmentDiffuseScale = 1
-        game.Lighting.Brightness = 3
+    Toggle:OnChanged(function(ae)
+	if ae then
+           game.Lighting.Atmosphere.Density = 0.550
+           game.Lighting.EnvironmentDiffuseScale = 1
+           game.Lighting.Brightness = 5
             --game.Lighting.Ambient.Color = Color3.new(1, 1, 1)
             --wait(0.5)
-        --end
+        end
     end)
 
     --Options.FullBright:SetValue(false)
