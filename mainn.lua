@@ -215,19 +215,6 @@ local items = RS.Items
         Content = "Most basic things are located down there."
     })
 
-
-    local Toggle = Tabs.Main:AddToggle("FullBright", {Title = "FullBright", Default = false })
-
-    Toggle.OnChanged:Connect(function(ae)
-        while ae do
-            game.Lighting.Atmosphere.Density = 0.550
-            game.Lighting.EnvironmentDiffuseScale = 1
-            game.Lighting.Brightness = 5
-        -- game.Lighting.Ambient.Color = Color3.new(1, 1, 1)
-	    break
-	end
-    end)
-
     --Options.FullBright:SetValue(false)
     
     local Slider = Tabs.Main:AddSlider("Slider", {
