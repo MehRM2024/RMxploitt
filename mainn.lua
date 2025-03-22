@@ -449,6 +449,22 @@ end
              })
         end
     })
+
+
+    Tabs.N1:AddButton({
+    Title = "Auto Scare",
+    Description = "Requires at least one camera placed",
+    Callback = function()
+        workspace.ChildAdded:Connect(function(whoi)
+            if whoi.Name == "Mutant" and whoi:FindFirstChild("Config") and whoi.Config:FindFirstChild("Wandering") then
+                if whoi.Config.Wandering.Value == false then
+                    task.wait(1.5)
+                    game.ReplicatedStorage.Remotes.FlashCam:FireServer("1")
+                end
+            end
+        end)
+    end
+})
 	
    Tabs.N1:AddButton({
         Title = "Grab Wood",
@@ -690,7 +706,7 @@ end
         Title = "Disable Stalker View DMG",
         Description = "If you look at Stalker nothing happens if you exec this.",
         Callback = function()
-            Character.LookAt:Destroy()
+            game.ReplicatedStorage.Remotes.LookAt:Destroy()
             Fluent:Notify({
                 Title = "STALKER",
                 Content = "You're inmune to Stalker view damage now.",
