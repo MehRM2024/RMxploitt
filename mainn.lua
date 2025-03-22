@@ -449,21 +449,6 @@ end
              })
         end
     })
-
-
-Tabs.N1:AddButton({
-        Title = "Auto Scare (UNFINISHED)",
-        Description = "Simple but useful (requires atleast one camera placed)",
-        workspace.ChildAdded:Connect(Function(Model))
-	if Model.Name == "Mutant" then
-	    game.ReplicatedStorage.Remotes.FlashCam:FireServer("1")
-            Fluent:Notify({
-                Title = "FLASH",
-                Content = "Trying to flash...",
-                Duration = 5
-             })
-        end
-    })
 	
    Tabs.N1:AddButton({
         Title = "Grab Wood",
