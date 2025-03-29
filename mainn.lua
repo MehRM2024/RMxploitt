@@ -99,20 +99,23 @@ local items = RS.Items or nil
 local AutoWire = Tabs.Main:AddToggle("Auto-Wire", {Title = "Auto-Wire", Default = false })
 
 AutoWire:OnChanged(function(Toggle)
-    local State = RS.GameState.FusesFried or nil
-    local Fuses = workspace.FuseBox or nil
+    local Fuses = workspace:FindFirstChild("FuseBox")
+    if not Fuses then return end
+    
     if Toggle then
-        State:GetPropertyChangedSignal("Value"):Connect(function()
-            if State.Value == true then
-                for _, Wire in ipairs(Fuses.Wires:GetChildren()) do
-                    if Wire:FindFirstChild("Sparkles") and Wire.Sparkles.Enabled == true then
+        for _, Wire in ipairs(Fuses.Wires:GetChildren()) do
+            local Sparkles = Wire:FindFirstChild("Sparkles")
+            if Sparkles then
+                Sparkles:GetPropertyChangedSignal("Enabled"):Connect(function()
+                    if Sparkles.Enabled then
                         RS.Remotes.ClickWire:FireServer(Wire)
                     end
-                end
+                end)
             end
-        end)
+        end
     end
 end)
+
 
     Tabs.Main:AddButton({
         Title = "Events Notifier (Unfinished)",
