@@ -3,8 +3,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local LocalPlayer = game.Players.LocalPlayer
-local Character = LocalPlayer.Character
-local character = LocalPlayer.Character
+local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
 
 local aPlaceI = {
     [14896802601] = true,
@@ -22,7 +22,7 @@ if not aPlaceI[game.PlaceId] then
 end
 
 local Window = Fluent:CreateWindow({
-    Title = "RMxploit" .. Fluent.Version,
+    Title = "RMxploit",
     SubTitle = "Residence Massacre OP Script",
     TabWidth = 120,
     Size = UDim2.fromOffset(520, 420),
@@ -69,7 +69,7 @@ do
 
 local RS = game.ReplicatedStorage
 local Remotes = RS.Remotes
-local items = RS.Items
+local items = RS.Items or nil
 
 --//MAIN\\--
 
