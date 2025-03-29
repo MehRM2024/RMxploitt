@@ -297,7 +297,7 @@ Tabs.VisualsT:AddButton({
         Callback = function()
 	    if RS:FindFirstChild("MutantVal") then
             RS.MutantVal:Destroy()
-	    end
+	    return end
             task.wait(1)
             local H = Instance.new("Highlight")
             H.Adornee = workspace:WaitForChild("Mutant")
