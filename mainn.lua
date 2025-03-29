@@ -295,10 +295,12 @@ Tabs.VisualsT:AddButton({
         Title = "Larry ESP",
         Description = "ESP For Larry Night 1 & 2",
         Callback = function()
+	    if RS:FindFirstChild("MutantVal") then
             RS.MutantVal:Destroy()
+	    end
             task.wait(1)
             local H = Instance.new("Highlight")
-            H.Parent = workspace:WaitForChild("Mutant")
+            H.Adornee = workspace:WaitForChild("Mutant")
             H.FillTransparency = 1
             Fluent:Notify({
                 Title = "VISUAL ESP [LARRY]",
