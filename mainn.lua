@@ -101,18 +101,19 @@ local AutoWire = Tabs.Main:AddToggle("Auto-Wire", {Title = "Auto-Wire", Default 
 AutoWire:OnChanged(function(Toggle)
     local Fuses = workspace:FindFirstChild("FuseBox")
     if not Fuses then return end
-    
+
     if Toggle then
-        for _, Wire in ipairs(Fuses.Wires:GetChildren()) do
-            local Sparkles = Wire:FindFirstChild("Sparkles")
-            if Sparkles then
-                Sparkles:GetPropertyChangedSignal("Enabled"):Connect(function()
-                    if Sparkles.Enabled then
+        task.spawn(function()
+            while AutoWire.Value do
+                for _, Wire in ipairs(Fuses.Wires:GetChildren()) do
+                    local Sparkles = Wire:FindFirstChild("Sparkles")
+                    if Sparkles and Sparkles.Enabled then
                         RS.Remotes.ClickWire:FireServer(Wire)
                     end
-                end)
+                end
+                task.wait(0.1)
             end
-        end
+        end)
     end
 end)
 
