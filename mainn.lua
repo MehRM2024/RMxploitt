@@ -100,7 +100,7 @@ local AutoWire = Tabs.Main:AddToggle("Auto-Wire", {Title = "Auto-Wire", Default 
 
 AutoWire:OnChanged(function(Toggle)
     local State = RS.GameState.FusesFried or nil
-    local Fuses = workspace.Fuses
+    local Fuses = workspace.Fusebox or nil
     if Toggle then
         State:GetPropertyChangedSignal("Value"):Connect(function()
             if State.Value == true then
@@ -481,6 +481,26 @@ end
         end
     })
 
+    Tabs.N1:AddButton({
+        Title = "Refill Fireplace 2",
+        Description = "You may use with more people. (No TP Back)",
+        Callback = function()
+            --local OCframe = character.HumanoidRootPart.CFrame
+            workspace.WoodPile.Detector.CanCollide = false
+        character.HumanoidRootPart.CFrame = CFrame.new(-27.1490536, 8.69999981, -118.611603, 0.999933779, 1.25921233e-07, -0.0115088131, -1.26111075e-07, 1, -1.57700288e-08, 0.0115088131, 1.72203727e-08, 0.999933779)
+        task.wait(0.25)
+            fireclickdetector(workspace.WoodPile.Detector.ClickDetector)
+            task.wait(0.25)
+            character.HumanoidRootPart.CFrame = CFrame.new(-45.1136208, 7.84974337, -60.2411423, 0.0467772186, -0.000410021428, 0.998905241, 1.91703771e-06, 0.99999994, 0.000410380948, -0.998905301, -1.72815417e-05, 0.0467772186)
+            --task.wait(0.5)
+            --character.HumanoidRootPart.CFrame = OCframe
+            Fluent:Notify({
+                Title = "CHRISTMAS",
+                Content = "Refilled Fire-place!",
+                Duration = 5
+             })
+        end
+    })
 
     Tabs.N1:AddButton({
     Title = "Auto Scare",
