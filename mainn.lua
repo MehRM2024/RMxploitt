@@ -109,13 +109,13 @@ AutoWire:OnChanged(function(Toggle)
                 for _, Wire in ipairs(Fuses.Wires:GetChildren()) do
                     local Sparkles = Wire:FindFirstChild("Sparkles")
                     if Sparkles.Enabled and not OneTime then
+			OneTime = true
                         RS.Remotes.ClickWire:FireServer(Wire)
-                        OneTime = true
-		        task.wait(0.1)
+		        task.wait(0.5)
 			OneTime = false
                     end
                 end
-                task.wait(0.1)
+                task.wait(0.5)
             end
         end)
     end
