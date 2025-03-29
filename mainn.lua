@@ -337,7 +337,7 @@ Tabs.VisualsT:AddButton({
         Description = "ESP For Larry Night 1 & 2",
         Callback = function()
             local H = Instance.new("Highlight")
-            H.Adornee = workspace:WaitForChild("Mutant") or game.ReplicatedStorage:FindFirstChild("Mutant")
+            H.Adornee = workspace:WaitForChild("Mutant")
             H.FillTransparency = 1
             Fluent:Notify({
                 Title = "VISUAL ESP [LARRY]",
