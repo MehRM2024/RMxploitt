@@ -625,7 +625,7 @@ end
 
    Tabs.N1:AddButton({
         Title = "EZ Gambler mini-game",
-        Description = "Upgrades",
+        Description = "Very EZ",
         Callback = function()
             if RS.Assets:FindFirstChild("Gambler") then
                 RS.Assets.Gambler.Cups["1"].BrickColor = BrickColor.new("Really red")
