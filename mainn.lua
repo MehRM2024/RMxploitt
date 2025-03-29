@@ -100,7 +100,7 @@ local AutoWire = Tabs.Main:AddToggle("Auto-Wire", {Title = "Auto-Wire", Default 
 
 AutoWire:OnChanged(function(Toggle)
     local State = RS.GameState.FusesFried or nil
-    local Fuses = workspace.Fusebox or nil
+    local Fuses = workspace.FuseBox or nil
     if Toggle then
         State:GetPropertyChangedSignal("Value"):Connect(function()
             if State.Value == true then
