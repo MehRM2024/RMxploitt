@@ -96,6 +96,24 @@ local items = RS.Items or nil
         Content = "Basic stuff are located down there."
     })
 
+local AutoWire = Tabs.Main:AddToggle("Auto-Wire", {Title = "Auto-Wire", Default = false })
+
+AutoWire:OnChanged(function(Toggle)
+    local State = RS.GameState.FusesFried or nil
+    local Fuses = workspace.Fuses
+    if Toggle then
+        State:GetPropertyChangedSignal("Value"):Connect(function()
+            if State.Value == true then
+                for _, Wire in ipairs(Fuses.Wires:GetChildren()) do
+                    if Wire:FindFirstChild("Sparkles") and Wire.Sparkles.Enabled then
+                        RS.Remotes.ClickWire:FireServer(Wire)
+                    end
+                end
+            end
+        end)
+    end
+end)
+
     Tabs.Main:AddButton({
         Title = "Events Notifier (Unfinished)",
         Description = "tells you if Larry spawned outside or inside",
@@ -137,6 +155,21 @@ local items = RS.Items or nil
             Fluent:Notify({
                 Title = "STAMINA",
                 Content = "You've been given infinite stamina.",
+                Duration = 5
+             })
+        end
+    })
+
+    Tabs.Main:AddButton({
+        Title = "Fix Sprint",
+        Description = "Fix Sprint incase of not working",
+        Callback = function()
+            Character:SetAttribute("SprintSpeed", 16)
+            task.wait(0.1)
+            Character:SetAttribute("SprintSpeed", 17)
+            Fluent:Notify({
+                Title = "SPRINT",
+                Content = "Fixed sprint! (Hopefully).",
                 Duration = 5
              })
         end
@@ -295,12 +328,8 @@ Tabs.VisualsT:AddButton({
         Title = "Larry ESP",
         Description = "ESP For Larry Night 1 & 2",
         Callback = function()
-	    if RS:FindFirstChild("MutantVal") then
-            RS.MutantVal:Destroy()
-	    return end
-            task.wait(1)
             local H = Instance.new("Highlight")
-            H.Adornee = workspace:WaitForChild("Mutant")
+            H.Adornee = workspace:WaitForChild("Mutant") or game.ReplicatedStorage:FindFirstChild("Mutant")
             H.FillTransparency = 1
             Fluent:Notify({
                 Title = "VISUAL ESP [LARRY]",
@@ -548,8 +577,46 @@ end
     })
 
    Tabs.N1:AddParagraph({
-        Title = "EXTRA",
-        Content = "Extra stuff are located down there."
+        Title = "Endless",
+        Content = "Endless stuff are located down there."
+    })
+
+   Tabs.N1:AddButton({
+        Title = "Open UpgradeFrame",
+        Description = "Upgrades",
+        Callback = function()
+            LocalPlayer.PlayerGui.DialogueUI.UpgradeFrame.Visible = true
+            LocalPlayer.PlayerGui.DialogueUI.UpgradeFrame.Position = UDim2.new(0.499, 0, 0.5, 0)
+            Fluent:Notify({
+                Title = "ENDLESS",
+                Content = "UpgradeFrame's visible!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N1:AddButton({
+        Title = "EZ Gambler mini-game",
+        Description = "Upgrades",
+        Callback = function()
+            if RS.Assets:FindFirstChild("Gambler") then
+                RS.Assets.Gambler.Cups["1"].BrickColor = BrickColor.new("Really red")
+                RS.Assets.Gambler.Cups["3"].BrickColor = BrickColor.new("Lime green")
+            else
+                workspace.Gambler.Cups["1"].BrickColor = BrickColor.new("Really red")
+                workspace.Gambler.Cups["3"].BrickColor = BrickColor.new("Lime green")
+            end
+            Fluent:Notify({
+                Title = "ENDLESS",
+                Content = "Gambler mini-game is easier!",
+                Duration = 5
+             })
+        end
+    })
+
+  Tabs.N1:AddParagraph({
+        Title = "PvP",
+        Content = "PvP stuff are located down here."
     })
 
    Tabs.N1:AddButton({
@@ -570,19 +637,6 @@ end
         end
     })
 
-   Tabs.N1:AddButton({
-        Title = "Open UpgradeFrame",
-        Description = "Upgrades",
-        Callback = function()
-            LocalPlayer.PlayerGui.DialogueUI.UpgradeFrame.Visible = true
-            LocalPlayer.PlayerGui.DialogueUI.UpgradeFrame.Position = UDim2.new(0.499, 0, 0.5, 0)
-            Fluent:Notify({
-                Title = "UPGRADES",
-                Content = "UpgradeFrame's visible!",
-                Duration = 5
-             })
-        end
-    })
 
 --//NIGHT 2\\--
 
