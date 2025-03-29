@@ -105,7 +105,7 @@ AutoWire:OnChanged(function(Toggle)
         State:GetPropertyChangedSignal("Value"):Connect(function()
             if State.Value == true then
                 for _, Wire in ipairs(Fuses.Wires:GetChildren()) do
-                    if Wire:FindFirstChild("Sparkles") and Wire.Sparkles.Enabled then
+                    if Wire:FindFirstChild("Sparkles") and Wire.Sparkles.Enabled == true then
                         RS.Remotes.ClickWire:FireServer(Wire)
                     end
                 end
