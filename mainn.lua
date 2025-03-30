@@ -337,7 +337,7 @@ Tabs.VisualsT:AddButton({
         Description = "ESP For Larry Night 1 & 2",
         Callback = function()
             local H = Instance.new("Highlight")
-	    H.Parent = game.CoreUi
+	    H.Parent = game.CoreGui
             H.Adornee = workspace:WaitForChild("Mutant")
             H.FillTransparency = 1
             Fluent:Notify({
