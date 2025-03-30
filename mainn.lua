@@ -333,10 +333,11 @@ Tabs.VisualsT:AddButton({
 
 
     Tabs.VisualsT:AddButton({
-        Title = "Larry ESP",
+        Title = "Larry ESP (Requires anti-cheat bypass)",
         Description = "ESP For Larry Night 1 & 2",
         Callback = function()
             local H = Instance.new("Highlight")
+	    H.Parent = game.CoreUi
             H.Adornee = workspace:WaitForChild("Mutant")
             H.FillTransparency = 1
             Fluent:Notify({
