@@ -659,13 +659,47 @@ end
              [2] = C,
           }))
             Fluent:Notify({
-                Title = "TROLLING",
+                Title = "PVP",
                 Content = "Placed trap!",
                 Duration = 5
              })
         end
     })
 
+   Tabs.N1:AddButton({
+        Title = "Un-anchor root part",
+        Description = "Trolling",
+        Callback = function()
+         local C = game.Players.LocalPlayer.Character.HumanoidRootPart
+
+         C.Anchored = false
+            Fluent:Notify({
+                Title = "PVP",
+                Content = "un-achored rootpart!",
+                Duration = 5
+             })
+        end
+    })
+
+   Tabs.N1:AddButton({
+        Title = "Fast (requires anti-cheat bypass)",
+        Description = "Trolling",
+        Callback = function()
+         local C = game.Players.LocalPlayer.Character.Humanoid
+
+	while true do
+	    C.WalkSpeed = 30
+	    task.wait(0.1)
+	end
+
+         C.Anchored = false
+            Fluent:Notify({
+                Title = "PVP",
+                Content = "You're fast now!",
+                Duration = 5
+             })
+        end
+    })
 
 --//NIGHT 2\\--
 
