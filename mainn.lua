@@ -701,6 +701,23 @@ end
         end
     })
 
+   Tabs.N1:AddButton({
+        Title = "Enable Jumping",
+        Description = "Trolling",
+        Callback = function()
+         local C = game.Players.LocalPlayer.Character.Humanoid
+	  while true do
+              Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping, true)
+	      Humanoid.JumpPower = 50
+	      task.wait(0.1)
+	  end
+            Fluent:Notify({
+                Title = "PVP",
+                Content = "You can jump now!",
+                Duration = 5
+             })
+        end
+    })
 --//NIGHT 2\\--
 
     Tabs.N2:AddButton({
