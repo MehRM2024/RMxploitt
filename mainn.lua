@@ -690,8 +690,8 @@ game:GetService("ReplicatedStorage").Remotes.PlayerMutant:FireServer(table.unpac
         Callback = function()
          local C = game.Players.LocalPlayer.Character.Humanoid
 	  while true do
-              Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping, true)
-	      Humanoid.JumpPower = 50
+              C:SetStateEnabled(Enum.HumanoidStateType.Jumping, true)
+	      C.JumpPower = 50
 	      task.wait(0.1)
 	  end
             Fluent:Notify({
