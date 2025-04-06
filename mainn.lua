@@ -201,25 +201,6 @@ end)
     })
 
    Tabs.Main:AddParagraph({
-        Title = "ITEMS",
-        Content = "Items stuff are located down there."
-    })
-
-    Tabs.Main:AddButton({
-        Title = "Give SnowBall",
-        Description = "Give yourself a SnowBall (works)",
-        Callback = function()
-            local t = items.SnowBall:Clone()
-            t.Parent = LocalPlayer.Backpack
-            Fluent:Notify({
-                Title = "ITEMS",
-                Content = "You've been given a SnowBall.",
-                Duration = 5
-             })
-        end
-    })
-
-   Tabs.Main:AddParagraph({
         Title = "LOCALSCRIPTS",
         Content = "Disable certain LocalScripts buttons are located down there."
     })
