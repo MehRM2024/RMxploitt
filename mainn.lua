@@ -649,24 +649,6 @@ end
     })
 
    Tabs.N1:AddButton({
-        Title = "Place Trap",
-        Description = "Trolling",
-        Callback = function()
-         local C = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-
-         game:GetService("ReplicatedStorage").Remotes.PlayerMutant:FireServer(table.unpack({
-             [1] = "Trap",
-             [2] = C,
-          }))
-            Fluent:Notify({
-                Title = "PVP",
-                Content = "Placed trap!",
-                Duration = 5
-             })
-        end
-    })
-
-   Tabs.N1:AddButton({
         Title = "Un-anchor root part",
         Description = "Trolling",
         Callback = function()
