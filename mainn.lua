@@ -96,6 +96,28 @@ local items = RS.Items or nil
         Content = "Basic stuff are located down there."
     })
 
+	Tabs.Main:AddButton({
+        Title = "Bypass Anti-Cheat",
+        Description = "You Bypass the anti-cheat with this.",
+        Callback = function()
+            local disabledAC = false
+local remotesFolder = game.ReplicatedStorage.Remotes
+local AnticheatRemote = remotesFolder.Kick
+    if disabledAC then return end
+
+    AnticheatRemote.Name = ""
+
+    Instance.new("RemoteEvent", remotesFolder).Name = "Kick"
+
+    disabledAC = true
+            Fluent:Notify({
+                Title = "ANTI-CHEAY",
+                Content = "Bypassed Anti-Cheat!.",
+                Duration = 5
+             })
+        end
+    })
+	
 local AutoWire = Tabs.Main:AddToggle("Auto-Wire", {Title = "Auto-Wire", Default = false })
 
 AutoWire:OnChanged(function(Toggle)
