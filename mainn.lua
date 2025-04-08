@@ -147,8 +147,8 @@ end)
         Title = "Remove Closet barriers",
         Description = "Remove every closets barriers",
         Callback = function()
-            for _, closets in pairs(doors:GetChildren())
-	    if closets.Name == "Closet" then
+            for _, closets in pairs(doors:GetChildren()) do
+	    if closets.Name == "Closet" and closets:FindFirstChild("Ignore") then
 		closets.Ignore:Destroy()
 	    end
             Fluent:Notify({
