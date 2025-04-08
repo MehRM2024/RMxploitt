@@ -143,6 +143,21 @@ AutoWire:OnChanged(function(Toggle)
     end
 end)
 
+	Tabs.Main:AddButton({
+        Title = "Remove Closet barriers",
+        Description = "Remove every closets barriers",
+        Callback = function()
+            for _, closets in pairs(doors:GetChildren())
+	    if closets.Name == "Closet" then
+		closets.Ignore:Destroy()
+	    end
+            Fluent:Notify({
+                Title = "CLOSETS",
+                Content = "Removed Closets barriers!",
+                Duration = 5
+             })
+        end
+    })
 
     Tabs.Main:AddButton({
         Title = "Events Notifier (Unfinished)",
