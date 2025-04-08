@@ -151,7 +151,7 @@ end)
 	    if closets.Name == "Closet" and closets:FindFirstChild("Ignore") then
 		closets.Ignore:Destroy()
 	    end
-				end)
+				end
             Fluent:Notify({
                 Title = "CLOSETS",
                 Content = "Removed Closets barriers!",
